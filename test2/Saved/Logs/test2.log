@@ -2690,3 +2690,825 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.16-09.10.05:617][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms
 [2023.10.16-09.10.05:621][399]AssetCheck: New page: 에셋 저장:  Enemy_Controller
 [2023.10.16-09.10.05:621][399]LogContentValidation: Display: /Script/Engine.Blueprint /Game/BP/Enemy_Controller.Enemy_Controller 유효성 검사 중
+[2023.10.16-09.15.02:573][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.10.16-09.15.02:576][618]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/HideAndSeek' took 0.018
+[2023.10.16-09.15.02:576][618]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Enemy_Controller] ([2] browsable assets)...
+[2023.10.16-09.15.02:576][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Enemy_Controller]
+[2023.10.16-09.15.02:576][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enemy_Controller" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Controller_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.15.02:619][618]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Enemy_Controller_Auto2
+[2023.10.16-09.15.02:619][618]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/Enemy_Controller_Auto2E38E98624BD7FBE3359291BB16AACEE5.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Controller_Auto2.uasset'
+[2023.10.16-09.15.02:620][618]LogFileHelpers: Auto-saving content packages took 0.043
+[2023.10.16-09.15.33:345][661]BlueprintLog: New page: Enemy_Controller 컴파일
+[2023.10.16-09.15.33:372][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.10.16-09.15.35:910][883]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.10.16-09.15.35:918][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.16-09.15.35:919][883]PIE: New page: PIE 세션: HideAndSeek (2023. 10. 17. 오전 3:15:35)
+[2023.10.16-09.15.35:945][883]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.15.35:948][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003094s)
+[2023.10.16-09.15.35:948][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/HideAndSeek.HideAndSeek to /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek (0.003138s)
+[2023.10.16-09.15.35:963][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.16-09.15.35:965][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.15.35:965][883]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.15.35:966][883]LogAIModule: Creating AISystem for world HideAndSeek
+[2023.10.16-09.15.35:966][883]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2023.10.16-09.15.35:966][883]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.16-09.15.35:966][883]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.16-09.15.35:966][883]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.16-09.15.35:967][883]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.16-09.15.35:967][883]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.16-09.15.35:967][883]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.16-09.15.35:969][883]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.16-09.15.35:975][883]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2023.10.16-09.15.35:975][883]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.16-09.15.35:975][883]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.16-09.15.35:975][883]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.16-09.15.35:976][883]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.10.16-09.15.35:976][883]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.10.16-09.15.35:978][883]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.10.16-09.15.35:978][883]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9532
+[2023.10.16-09.15.35:978][883]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=13
+[2023.10.16-09.15.35:978][883]LogInit: FAudioDevice initialized with ID 13.
+[2023.10.16-09.15.35:978][883]LogAudio: Display: Audio Device (ID: 13) registered with world 'HideAndSeek'.
+[2023.10.16-09.15.35:978][883]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.10.16-09.15.35:980][883]LogLoad: Game class is 'MyGameMode_C'
+[2023.10.16-09.15.35:982][883]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek up for play (max tick rate 0) at 2023.10.16-18.15.35
+[2023.10.16-09.15.35:983][883]LogWorld: Bringing up level for play took: 0.002301
+[2023.10.16-09.15.35:985][883]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.10.16-09.15.35:986][883]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.15.35:986][883]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.15.35:986][883]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.15.35:986][883]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.15.35:998][883]PIE: 서버가 로그인했습니다.
+[2023.10.16-09.15.35:999][883]PIE: 에디터에서 플레이 총 시작 시간 0.08초입니다.
+[2023.10.16-09.15.57:994][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.15.57:994][513]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.15.57:994][513]LogWorld: UWorld::CleanupWorld for HideAndSeek, bSessionEnded=true, bCleanupResources=true
+[2023.10.16-09.15.57:995][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.15.57:998][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.16-09.15.58:003][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.15.58:017][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.15.58:017][513]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.10.16-09.15.58:017][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.10.16-09.15.58:019][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.10.16-09.15.58:023][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.10.16-09.15.58:079][515]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.10.16-09.20.04:837][115]BlueprintLog: New page: Enemy_Controller 컴파일
+[2023.10.16-09.20.04:865][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.10.16-09.20.13:366][ 21]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_242
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.20.13:812][ 74]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_243
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.20.13:822][ 75]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_244
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.20.13:830][ 76]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_245
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.20.13:839][ 77]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_246
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.20.13:847][ 78]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_247
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.20.15:091][220]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BTT_ChasePlayer.BTT_ChasePlayer
+[2023.10.16-09.20.15:092][220]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.20.15:092][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.20.39:272][674]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BTT_FindRandomPatrol.BTT_FindRandomPatrol
+[2023.10.16-09.20.39:272][674]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.20.39:272][674]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.21.12:740][651]BlueprintLog: New page: BTT_FindRandomPatrol 컴파일
+[2023.10.16-09.21.12:766][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.16-09.21.15:053][868]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.10.16-09.21.15:062][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.16-09.21.15:062][868]PIE: New page: PIE 세션: HideAndSeek (2023. 10. 17. 오전 3:21:15)
+[2023.10.16-09.21.15:102][868]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.21.15:105][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003060s)
+[2023.10.16-09.21.15:105][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/HideAndSeek.HideAndSeek to /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek (0.003103s)
+[2023.10.16-09.21.15:120][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.10.16-09.21.15:121][868]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.21.15:121][868]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.21.15:122][868]LogAIModule: Creating AISystem for world HideAndSeek
+[2023.10.16-09.21.15:122][868]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2023.10.16-09.21.15:122][868]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.16-09.21.15:122][868]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.16-09.21.15:122][868]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.16-09.21.15:123][868]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.16-09.21.15:123][868]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.16-09.21.15:123][868]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.16-09.21.15:125][868]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.16-09.21.15:130][868]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2023.10.16-09.21.15:131][868]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.16-09.21.15:131][868]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.16-09.21.15:131][868]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.16-09.21.15:132][868]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.10.16-09.21.15:132][868]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.10.16-09.21.15:134][868]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.10.16-09.21.15:134][868]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=11948
+[2023.10.16-09.21.15:134][868]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=14
+[2023.10.16-09.21.15:134][868]LogInit: FAudioDevice initialized with ID 14.
+[2023.10.16-09.21.15:134][868]LogAudio: Display: Audio Device (ID: 14) registered with world 'HideAndSeek'.
+[2023.10.16-09.21.15:134][868]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.10.16-09.21.15:136][868]LogLoad: Game class is 'MyGameMode_C'
+[2023.10.16-09.21.15:138][868]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek up for play (max tick rate 0) at 2023.10.16-18.21.15
+[2023.10.16-09.21.15:138][868]LogWorld: Bringing up level for play took: 0.002296
+[2023.10.16-09.21.15:140][868]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.10.16-09.21.15:141][868]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.21.15:141][868]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.21.15:141][868]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.21.15:142][868]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.21.15:153][868]PIE: 서버가 로그인했습니다.
+[2023.10.16-09.21.15:154][868]PIE: 에디터에서 플레이 총 시작 시간 0.093초입니다.
+[2023.10.16-09.21.19:685][407]LogBlueprintUserMessages: [BP_Item_C_2] Hidden
+[2023.10.16-09.21.49:757][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.21.49:757][ 10]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.21.49:757][ 10]LogWorld: UWorld::CleanupWorld for HideAndSeek, bSessionEnded=true, bCleanupResources=true
+[2023.10.16-09.21.49:758][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.21.49:761][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.16-09.21.49:766][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.21.49:779][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.21.49:779][ 10]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.10.16-09.21.49:779][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.10.16-09.21.49:781][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.10.16-09.21.49:785][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.10.16-09.21.49:840][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.10.16-09.22.46:795][670]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Enemy_Character.Enemy_Character
+[2023.10.16-09.22.46:795][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.22.46:795][670]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.23.10:752][522]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Enemy_Character_C_0, they are designed to work with AAIControllers!
+[2023.10.16-09.23.10:752][522]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Enemy_Character_C_0, they are designed to work with AAIControllers!
+[2023.10.16-09.23.10:752][522]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Enemy_Character_C_0, they are designed to work with AAIControllers!
+[2023.10.16-09.23.10:754][522]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Enemy_Character_C_0, they are designed to work with AAIControllers!
+[2023.10.16-09.23.21:868][532]BlueprintLog: New page: Enemy_Character 컴파일
+[2023.10.16-09.23.21:923][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.10.16-09.23.29:486][357]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.23.29:494][357]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.23.29:494][357]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.23.29:494][357]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.23.29:494][357]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: ================================================
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: Total job queries 24, among them cache hits 7 (29.17%)
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: Tracking 17 distinct input hashes that result in 14 distinct outputs (82.35%)
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: RAM used: 493.14 KiB of 819.20 MiB budget. Usage: 0.06%
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.10.16-09.23.29:500][357]LogShaderCompilers: Display: ================================================
+[2023.10.16-09.23.29:555][360]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.23.31:197][522]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter
+[2023.10.16-09.23.31:197][522]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.23.31:197][522]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.23.31:345][522]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.23.31:345][522]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.23.31:345][522]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.23.31:345][522]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.23.31:775][525]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.23.38:421][852]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.23.38:421][852]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.23.38:425][852]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.23.38:425][852]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.05:275][775]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.05:275][775]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.05:277][775]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.05:277][775]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.06:320][831]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.06:320][831]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.06:323][831]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.06:323][831]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.09:513][  0]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.09:513][  0]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.09:516][  0]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.09:516][  0]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.16:585][391]BlueprintLog: New page: ShinbiPlayerCharacter 컴파일
+[2023.10.16-09.24.16:646][391]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.24.16:646][391]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.24.16:648][391]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.24.16:648][391]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.24.16:678][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.10.16-09.24.16:684][391]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.16:684][391]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_1
+[2023.10.16-09.24.16:686][391]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.16:686][391]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_1
+[2023.10.16-09.24.16:687][391]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.16:687][391]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_1.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.16:687][391]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.24.16:687][391]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.24.16:707][391]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.16:707][391]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_12:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_1
+[2023.10.16-09.24.16:709][391]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.16:709][391]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_10:PersistentLevel.ShinbiPlayerCharacter_C_1.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.29:916][200]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.10.16-09.24.29:925][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.16-09.24.29:925][200]PIE: New page: PIE 세션: HideAndSeek (2023. 10. 17. 오전 3:24:29)
+[2023.10.16-09.24.29:962][200]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.24.29:965][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003101s)
+[2023.10.16-09.24.29:965][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/HideAndSeek.HideAndSeek to /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek (0.003145s)
+[2023.10.16-09.24.29:982][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.16-09.24.29:983][200]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.24.29:983][200]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.24.29:984][200]LogAIModule: Creating AISystem for world HideAndSeek
+[2023.10.16-09.24.29:984][200]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2023.10.16-09.24.29:984][200]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.16-09.24.29:984][200]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.16-09.24.29:984][200]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.16-09.24.29:985][200]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.16-09.24.29:985][200]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.16-09.24.29:985][200]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.16-09.24.29:987][200]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.16-09.24.29:993][200]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2023.10.16-09.24.29:993][200]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.16-09.24.29:993][200]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.16-09.24.29:993][200]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.16-09.24.29:994][200]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.10.16-09.24.29:994][200]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.10.16-09.24.29:995][200]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.10.16-09.24.29:995][200]LogInit: FAudioDevice initialized with ID 15.
+[2023.10.16-09.24.29:995][200]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=1988
+[2023.10.16-09.24.29:995][200]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=15
+[2023.10.16-09.24.29:995][200]LogAudio: Display: Audio Device (ID: 15) registered with world 'HideAndSeek'.
+[2023.10.16-09.24.29:995][200]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.10.16-09.24.29:997][200]LogLoad: Game class is 'MyGameMode_C'
+[2023.10.16-09.24.29:999][200]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek up for play (max tick rate 0) at 2023.10.16-18.24.29
+[2023.10.16-09.24.30:000][200]LogWorld: Bringing up level for play took: 0.002243
+[2023.10.16-09.24.30:002][200]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.10.16-09.24.30:003][200]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.24.30:003][200]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.24.30:003][200]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.24.30:003][200]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.24.30:015][200]PIE: 서버가 로그인했습니다.
+[2023.10.16-09.24.30:016][200]PIE: 에디터에서 플레이 총 시작 시간 0.091초입니다.
+[2023.10.16-09.24.44:929][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.24.44:929][982]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.24.44:929][982]LogWorld: UWorld::CleanupWorld for HideAndSeek, bSessionEnded=true, bCleanupResources=true
+[2023.10.16-09.24.44:930][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.24.44:933][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.16-09.24.44:938][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.24.44:952][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.16-09.24.44:953][982]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.10.16-09.24.44:953][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.10.16-09.24.44:955][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.10.16-09.24.44:956][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.24.44:959][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.10.16-09.24.45:018][983]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.10.16-09.24.56:294][857]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_248
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:620][890]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_249
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:663][891]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_250
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:673][892]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_251
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:684][893]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_252
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:694][894]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_253
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:704][895]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_254
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.56:714][896]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_255
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:161][938]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_256
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:171][939]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_257
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:181][940]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_258
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:189][941]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_259
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:198][942]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_260
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:207][943]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_261
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:216][944]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_262
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:225][945]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_263
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:234][946]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_264
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:243][947]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_265
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:252][948]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_266
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:262][949]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_267
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:271][950]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_268
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:281][951]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_269
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:328][952]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_270
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:339][953]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_271
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:349][954]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_272
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:359][955]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_273
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:370][956]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_274
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:381][957]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_275
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:392][958]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_276
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:402][959]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_277
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:412][960]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_278
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.24.57:778][  0]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/BP/BT_Enemy.BT_Enemy
+[2023.10.16-09.26.14:631][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.10.16-09.26.14:633][413]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/HideAndSeek' took 0.016
+[2023.10.16-09.26.14:633][413]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/Enemy_Character] ([2] browsable assets)...
+[2023.10.16-09.26.14:633][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.26.14:656][413]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/BP/Enemy_Character.Enemy_Character_C]
+[2023.10.16-09.26.14:663][413]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/Enemy_Character.Enemy_Character]
+[2023.10.16-09.26.14:663][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Enemy_Character]
+[2023.10.16-09.26.14:663][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enemy_Character" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Character_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.26.14:669][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Enemy_Character_Auto3
+[2023.10.16-09.26.14:669][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/Enemy_Character_Auto3EA1BBEA7407682871DD8DCA7253AFDBB.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Character_Auto3.uasset'
+[2023.10.16-09.26.14:670][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Enemy_Controller] ([2] browsable assets)...
+[2023.10.16-09.26.14:670][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Enemy_Controller]
+[2023.10.16-09.26.14:670][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enemy_Controller" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Controller_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.26.14:680][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Enemy_Controller_Auto3
+[2023.10.16-09.26.14:680][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/Enemy_Controller_Auto3FD2AD926472D2733B09FF48E5A770DCF.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Controller_Auto3.uasset'
+[2023.10.16-09.26.14:681][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BT_Enemy] ([1] browsable assets)...
+[2023.10.16-09.26.14:681][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BT_Enemy]
+[2023.10.16-09.26.14:681][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BT_Enemy" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/BT_Enemy_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.26.14:701][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BT_Enemy_Auto3
+[2023.10.16-09.26.14:701][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/BT_Enemy_Auto38ABEA27B43E9FC1B50167D904F7B1AD2.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/BT_Enemy_Auto3.uasset'
+[2023.10.16-09.26.14:702][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BTT_FindRandomPatrol] ([2] browsable assets)...
+[2023.10.16-09.26.14:702][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BTT_FindRandomPatrol]
+[2023.10.16-09.26.14:702][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BTT_FindRandomPatrol" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/BTT_FindRandomPatrol_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.26.14:708][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BTT_FindRandomPatrol_Auto3
+[2023.10.16-09.26.14:709][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/BTT_FindRandomPatrol_Auto3ADEEA11A4DA184E6CC0EFB9AAB800D06.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/BTT_FindRandomPatrol_Auto3.uasset'
+[2023.10.16-09.26.14:709][413]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter] ([2] browsable assets)...
+[2023.10.16-09.26.14:710][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.26.14:717][413]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.26.14:717][413]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Engine/Transient.World_15:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.26.14:717][413]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.26.14:717][413]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.26.14:729][413]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter_C]
+[2023.10.16-09.26.14:737][413]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter.ShinbiPlayerCharacter]
+[2023.10.16-09.26.14:737][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter]
+[2023.10.16-09.26.14:758][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter_Auto3
+[2023.10.16-09.26.14:758][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/ShinbiPlayerCharacter_Auto3DE1FFD884BB8EF92E7A702A35F460285.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/ParagonShinbi/Characters/Heroes/Shinbi/ShinbiPlayerCharacter_Auto3.uasset'
+[2023.10.16-09.26.14:759][413]LogFileHelpers: Auto-saving content packages took 0.126
+[2023.10.16-09.27.53:401][356]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_279
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:414][357]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_280
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:424][358]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_281
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:433][359]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_282
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:442][360]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_283
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:451][361]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_284
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:460][362]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_285
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:468][363]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_286
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:477][364]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_287
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:486][365]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_288
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:495][366]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_289
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:504][367]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_290
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:541][368]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_291
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:551][369]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_292
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:562][370]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_293
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:571][371]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_294
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:581][372]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_295
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:591][373]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_296
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:601][374]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_297
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:610][375]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_298
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:621][376]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_299
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:631][377]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_300
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:642][378]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_301
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:652][379]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_302
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:662][380]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_303
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:673][381]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_304
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:684][382]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_305
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:695][383]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_306
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:706][384]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_307
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:716][385]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_308
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:726][386]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_309
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:737][387]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_310
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:747][388]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_311
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:758][389]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_312
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:768][390]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_313
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:779][391]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_314
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.27.53:789][392]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_315
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.28.19:874][988]BlueprintLog: New page: Enemy_Controller 컴파일
+[2023.10.16-09.28.19:902][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.16-09.28.21:796][151]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.10.16-09.28.21:809][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.16-09.28.21:809][151]PIE: New page: PIE 세션: HideAndSeek (2023. 10. 17. 오전 3:28:21)
+[2023.10.16-09.28.21:833][151]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.28.21:836][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003137s)
+[2023.10.16-09.28.21:836][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/HideAndSeek.HideAndSeek to /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek (0.003178s)
+[2023.10.16-09.28.21:851][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.16-09.28.21:852][151]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.28.21:852][151]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.28.21:853][151]LogAIModule: Creating AISystem for world HideAndSeek
+[2023.10.16-09.28.21:853][151]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2023.10.16-09.28.21:853][151]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.16-09.28.21:853][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.16-09.28.21:853][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.16-09.28.21:854][151]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.16-09.28.21:854][151]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.16-09.28.21:854][151]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.16-09.28.21:856][151]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.16-09.28.21:863][151]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2023.10.16-09.28.21:863][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.16-09.28.21:863][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.16-09.28.21:863][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.16-09.28.21:864][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.10.16-09.28.21:864][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.10.16-09.28.21:866][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.10.16-09.28.21:866][151]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3228
+[2023.10.16-09.28.21:866][151]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=16
+[2023.10.16-09.28.21:866][151]LogInit: FAudioDevice initialized with ID 16.
+[2023.10.16-09.28.21:866][151]LogAudio: Display: Audio Device (ID: 16) registered with world 'HideAndSeek'.
+[2023.10.16-09.28.21:866][151]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.10.16-09.28.21:875][151]LogLoad: Game class is 'MyGameMode_C'
+[2023.10.16-09.28.21:876][151]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek up for play (max tick rate 0) at 2023.10.16-18.28.21
+[2023.10.16-09.28.21:877][151]LogWorld: Bringing up level for play took: 0.002435
+[2023.10.16-09.28.21:880][151]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.10.16-09.28.21:880][151]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.28.21:880][151]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.28.21:881][151]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.28.21:881][151]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.28.21:892][151]PIE: 서버가 로그인했습니다.
+[2023.10.16-09.28.21:893][151]PIE: 에디터에서 플레이 총 시작 시간 0.088초입니다.
+[2023.10.16-09.28.28:996][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.28.28:996][990]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.28.28:996][990]LogWorld: UWorld::CleanupWorld for HideAndSeek, bSessionEnded=true, bCleanupResources=true
+[2023.10.16-09.28.28:997][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.28.29:000][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.16-09.28.29:005][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.28.29:018][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.16-09.28.29:018][990]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.10.16-09.28.29:018][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.10.16-09.28.29:020][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.10.16-09.28.29:022][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.28.29:025][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.10.16-09.28.29:080][991]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.10.16-09.28.53:052][571]BlueprintLog: New page: Enemy_Controller 컴파일
+[2023.10.16-09.28.53:081][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.16-09.28.57:937][967]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.10.16-09.28.57:949][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.16-09.28.57:949][967]PIE: New page: PIE 세션: HideAndSeek (2023. 10. 17. 오전 3:28:57)
+[2023.10.16-09.28.57:971][967]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.28.57:974][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003119s)
+[2023.10.16-09.28.57:974][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/HideAndSeek.HideAndSeek to /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek (0.003161s)
+[2023.10.16-09.28.57:989][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.16-09.28.57:990][967]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.28.57:990][967]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.28.57:991][967]LogAIModule: Creating AISystem for world HideAndSeek
+[2023.10.16-09.28.57:991][967]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2023.10.16-09.28.57:991][967]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.16-09.28.57:991][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.16-09.28.57:991][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.16-09.28.57:992][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.16-09.28.57:992][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.16-09.28.57:992][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.16-09.28.57:994][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.16-09.28.57:999][967]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2023.10.16-09.28.58:000][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.16-09.28.58:000][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.16-09.28.58:000][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.16-09.28.58:000][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.10.16-09.28.58:000][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.10.16-09.28.58:002][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.10.16-09.28.58:002][967]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12028
+[2023.10.16-09.28.58:002][967]LogInit: FAudioDevice initialized with ID 17.
+[2023.10.16-09.28.58:002][967]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=17
+[2023.10.16-09.28.58:002][967]LogAudio: Display: Audio Device (ID: 17) registered with world 'HideAndSeek'.
+[2023.10.16-09.28.58:002][967]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.10.16-09.28.58:004][967]LogLoad: Game class is 'MyGameMode_C'
+[2023.10.16-09.28.58:006][967]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek up for play (max tick rate 0) at 2023.10.16-18.28.58
+[2023.10.16-09.28.58:007][967]LogWorld: Bringing up level for play took: 0.002272
+[2023.10.16-09.28.58:009][967]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.10.16-09.28.58:010][967]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.28.58:010][967]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.28.58:010][967]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.28.58:010][967]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.28.58:022][967]PIE: 서버가 로그인했습니다.
+[2023.10.16-09.28.58:023][967]PIE: 에디터에서 플레이 총 시작 시간 0.077초입니다.
+[2023.10.16-09.28.59:734][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.28.59:734][162]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.28.59:734][162]LogWorld: UWorld::CleanupWorld for HideAndSeek, bSessionEnded=true, bCleanupResources=true
+[2023.10.16-09.28.59:735][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.28.59:738][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.16-09.28.59:743][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.28.59:757][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.28.59:757][162]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.10.16-09.28.59:757][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.10.16-09.28.59:759][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.10.16-09.28.59:763][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.10.16-09.28.59:809][163]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.10.16-09.29.00:551][242]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_316
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:593][243]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_317
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:603][244]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_318
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:614][245]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_319
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:624][246]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_320
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:634][247]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_321
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:645][248]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_322
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:655][249]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_323
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:666][250]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_324
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:676][251]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_325
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:685][252]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_326
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:695][253]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_327
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:706][254]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_328
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:716][255]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_329
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:727][256]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_330
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:737][257]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_331
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:747][258]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_332
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:757][259]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_333
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:767][260]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_334
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:778][261]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_335
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:788][262]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_336
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:799][263]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_337
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:809][264]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_338
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:819][265]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_339
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.00:829][266]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_340
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.29.08:765][901]BlueprintLog: New page: Enemy_Character 컴파일
+[2023.10.16-09.29.08:826][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.10.16-09.29.10:987][ 98]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.10.16-09.29.10:999][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.16-09.29.10:999][ 98]PIE: New page: PIE 세션: HideAndSeek (2023. 10. 17. 오전 3:29:10)
+[2023.10.16-09.29.11:027][ 98]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.29.11:030][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003099s)
+[2023.10.16-09.29.11:030][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/HideAndSeek.HideAndSeek to /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek (0.003141s)
+[2023.10.16-09.29.11:046][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.16-09.29.11:047][ 98]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.16-09.29.11:047][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.16-09.29.11:048][ 98]LogAIModule: Creating AISystem for world HideAndSeek
+[2023.10.16-09.29.11:048][ 98]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2023.10.16-09.29.11:048][ 98]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.16-09.29.11:048][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.16-09.29.11:048][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.16-09.29.11:049][ 98]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.16-09.29.11:049][ 98]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.16-09.29.11:049][ 98]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.16-09.29.11:051][ 98]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.16-09.29.11:056][ 98]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2023.10.16-09.29.11:057][ 98]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.16-09.29.11:057][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.16-09.29.11:057][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.16-09.29.11:058][ 98]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.10.16-09.29.11:058][ 98]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.10.16-09.29.11:059][ 98]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.10.16-09.29.11:059][ 98]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=4692
+[2023.10.16-09.29.11:059][ 98]LogInit: FAudioDevice initialized with ID 18.
+[2023.10.16-09.29.11:059][ 98]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=18
+[2023.10.16-09.29.11:059][ 98]LogAudio: Display: Audio Device (ID: 18) registered with world 'HideAndSeek'.
+[2023.10.16-09.29.11:059][ 98]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.10.16-09.29.11:062][ 98]LogLoad: Game class is 'MyGameMode_C'
+[2023.10.16-09.29.11:064][ 98]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek up for play (max tick rate 0) at 2023.10.16-18.29.11
+[2023.10.16-09.29.11:065][ 98]LogWorld: Bringing up level for play took: 0.002341
+[2023.10.16-09.29.11:067][ 98]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.10.16-09.29.11:068][ 98]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.10.16-09.29.11:068][ 98]LogScript: Warning: Script Msg called by: Shinbi_AnimBlueprint_C /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek.HideAndSeek:PersistentLevel.ShinbiPlayerCharacter_C_0.CharacterMesh0.Shinbi_AnimBlueprint_C_0
+[2023.10.16-09.29.11:068][ 98]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.10.16-09.29.11:068][ 98]LogSkeletalMesh: Display: OnRegister[/Game/ParagonShinbi/Characters/Heroes/Shinbi/Meshes/Shinbi.Shinbi]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.10.16-09.29.11:080][ 98]PIE: 서버가 로그인했습니다.
+[2023.10.16-09.29.11:081][ 98]PIE: 에디터에서 플레이 총 시작 시간 0.086초입니다.
+[2023.10.16-09.30.10:940][272]LogBlueprintUserMessages: [BP_Item_C_3] Hidden
+[2023.10.16-09.30.18:797][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.30.18:797][211]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_HideAndSeek
+[2023.10.16-09.30.18:797][211]LogWorld: UWorld::CleanupWorld for HideAndSeek, bSessionEnded=true, bCleanupResources=true
+[2023.10.16-09.30.18:798][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.30.18:801][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.16-09.30.18:807][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.16-09.30.18:820][211]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.16-09.30.18:820][211]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.10.16-09.30.18:820][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.10.16-09.30.18:822][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.10.16-09.30.18:823][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.16-09.30.18:826][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.10.16-09.30.18:883][212]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.10.16-09.31.10:565][213]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_341
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.31.10:579][214]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_342
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.31.10:592][215]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_343
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.31.10:603][216]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_344
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.31.10:614][217]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_345
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.31.10:625][218]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_346
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.31.10:635][219]LogScript: Warning: CallFunc_GetActorOfClass_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	BP_ZombieAni_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_ZombieAni_C_347
+	Function /Game/BP/BP_ZombieAni.BP_ZombieAni_C:ExecuteUbergraph_BP_ZombieAni:0068
+[2023.10.16-09.37.31:750][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.10.16-09.37.31:751][413]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/HideAndSeek' took 0.018
+[2023.10.16-09.37.31:752][413]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/Enemy_Character] ([2] browsable assets)...
+[2023.10.16-09.37.31:797][413]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/Enemy_Character.Enemy_Character]
+[2023.10.16-09.37.31:797][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Enemy_Character]
+[2023.10.16-09.37.31:797][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enemy_Character" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Character_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.37.31:802][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Enemy_Character_Auto4
+[2023.10.16-09.37.31:802][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/Enemy_Character_Auto45C47486745929A17B897239EA674CA88.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Character_Auto4.uasset'
+[2023.10.16-09.37.31:803][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Enemy_Controller] ([2] browsable assets)...
+[2023.10.16-09.37.31:803][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Enemy_Controller]
+[2023.10.16-09.37.31:803][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Enemy_Controller" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Controller_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.37.31:812][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/Enemy_Controller_Auto4
+[2023.10.16-09.37.31:812][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/Enemy_Controller_Auto4BFC4C8BC4001496F325B339B1F7A6D7F.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/Enemy_Controller_Auto4.uasset'
+[2023.10.16-09.37.31:813][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BTT_FindRandomPatrol] ([2] browsable assets)...
+[2023.10.16-09.37.31:813][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BTT_FindRandomPatrol]
+[2023.10.16-09.37.31:813][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BTT_FindRandomPatrol" FILE="D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/BTT_FindRandomPatrol_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.10.16-09.37.31:818][413]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BTT_FindRandomPatrol_Auto4
+[2023.10.16-09.37.31:818][413]LogSavePackage: Moving 'D:/git/UnrealOfUs/test2/Saved/BTT_FindRandomPatrol_Auto47BDCEC174BBF5320AEEC0D898B85F0CA.tmp' to 'D:/git/UnrealOfUs/test2/Saved/Autosaves/Game/BP/BTT_FindRandomPatrol_Auto4.uasset'
+[2023.10.16-09.37.31:819][413]LogFileHelpers: Auto-saving content packages took 0.067
+[2023.10.16-09.45.57:439][553]LogDerivedDataCache: C:/Users/kgca42876/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.114 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 11425 files in 13467 folders with total size 1332 MiB.
